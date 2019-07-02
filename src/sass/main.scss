@@ -1,0 +1,65 @@
+@import 'base/base';
+
+.container--padding {
+    background-color: white;
+    padding: 20px;
+    margin-top: 1vh;
+}
+
+.text {
+    &--main {
+        color: #73bf9f;
+    }
+    &--link {
+        margin-bottom: 10px;
+    }
+}
+.star {
+    &--checked {
+    color: orange;
+    font-size: 10px;
+    }
+    &--unchecked {
+        font-size: 10px;
+        text-shadow: 0 0 3px orange;
+        color: white;
+    }
+    &--border {
+        box-shadow: 0 0 0 0.8px rgba(14, 13, 13, 0.51); 
+        padding: 5px 5px;
+        margin: 5px 5% 0 5px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 50px;
+    }
+}
+.emoji {
+   margin: 1% 5px;
+    vertical-align:middle;
+    font-size: 20px;
+   &--smile {
+       color: green;
+   }
+}
+.border {
+    &--green {
+    color: green;
+    box-shadow: 0 0 0 0.8px green; 
+        }
+    &--red {
+        color: red;
+        box-shadow: 0 0 0 0.8px red;; 
+    }
+}
+@media only screen and (max-width: 800px) {
+    #description {
+        display: flex;
+        justify-content: center;
+    }
+  }
+  #my--button {
+      color: $color-links;
+      padding: 10px;
+      margin-top: 10px;
+  }
+
